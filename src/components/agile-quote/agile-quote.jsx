@@ -10,13 +10,9 @@ class AgileQuoteComponent extends Component {
             <p className="quote">
               <span className="quote-marks">&ldquo;</span>
               <span className="quote-content">
-                Arise, arise, Coders of Github!
-                Fell deeds awake, fire and slaughter!
-                spear shall be shaken, shield be splintered,
-                a sword-day, a red day, ere the sun rises!
-                Ride now, ride now! Ride to Gondor!
+                Improving daily work is even more important than doing daily work.
               </span>
-              <span className="quote-author">- Théoden, son of Thengel</span>
+              <span className="quote-author">- Kim, Gene. The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win (Kindle Locations 3404-3405). IT Revolution Press. Kindle Edition. </span>
             </p>
           </div>
         );

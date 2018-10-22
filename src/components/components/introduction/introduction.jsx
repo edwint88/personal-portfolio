@@ -8,20 +8,10 @@ class IntroductionComponent extends Component {
         return (
           <div className="introduction">
             <Avatar src="avatar.jpg" size={150}/>
-            <p className="introduction-text text-justify">
-              <b>&#x3C;darkVoice&#x3E;</b><br/>
-              In the world of 1000 frameworks, I'm fighting for the cause of
-              clean and well structured code. No bug can stop me. No build-tool will dominate me.
-              When the tests fail and the linting breaks, I will remain.
-              <br/>
-              <br/>
-
-              <b>&#x3C;/darkVoice&#x3E;</b>
-
-
-              Loves Javascript, cats and müsli.
-              Professional Cake-Eater. Defender of the peace.
-
+              <p className="introduction-text">
+                  Interested in agile frameworks, voice technology, machine learning, security topics and new technologies.
+                  Attending Meetups and Hackatons in the area of Düsseldorf (NRW) on topics like DevOps, Agile Frameworks, Web innovations, IOT technologies and any other Software Engineering topics.
+                  The other part of my time I read books, travel, play fetch with my dog and play video games with my wife, currently living in Düsseldorf, Germany.
               </p>
           </div>
         );

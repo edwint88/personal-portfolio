@@ -1,0 +1,47 @@
+.projects p.headline {
+    margin-top: 0;
+    color: rgba(255,255,255);
+}
+
+.projects-entry {
+    margin-bottom: 10px;
+}
+
+.projects-entry:last-of-type {
+    margin-bottom: 0px;
+}
+
+.projects-entry-chip {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.projects-entries {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.projects-entry a {
+    color: rgba(0, 56, 143, 0.91);
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.projects-entry a:first-of-type {
+    margin-left: 0;
+}
+
+.projects-card-text a {
+    color: rgba(22, 21, 28, 0.73);
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: right;
+}
+
+.projects-card-text a:first-of-type {
+    margin-left: 0;
+}

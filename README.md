@@ -4,6 +4,10 @@
 
 # personal-portfolio
 
+The concept is not my own and it is an extension of Sara's Steiert GitHub.
+
+Copyright (c) 2017 Sara Steiert
+
 [Demo](https://salomonelli.github.io/personal-portfolio/)
 
 This portfolio is made with [React](https://github.com/facebook/react), [Material UI](https://github.com/callemall/material-ui) and lots of love.
