@@ -11,10 +11,7 @@ import IntroductionComponent from './components/introduction/introduction';
 import TimelineComponent from './components/timeline/timeline';
 import ProgrammingComponent from './components/programming/programming';
 import AgileQuoteComponent from './components/agile-quote/agile-quote';
-import AgileComponent from './components/agile/agile';
 import DesignComponent from './components/design/design';
-import CodeGithubComponent from './components/code-github/code-github';
-import ContactComponent from './components/contact/contact';
 import FooterComponent from './components/footer/footer';
 
 class App extends Component {
