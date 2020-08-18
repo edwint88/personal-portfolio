@@ -5,6 +5,7 @@ import {
     CardText
 } from 'material-ui/Card';
 import './projects.css';
+import FlatButton from "material-ui/FlatButton";
 
 
 class ProjectsComponent extends Component {
@@ -99,9 +100,10 @@ class ProjectsComponent extends Component {
                             <br/>
                             • Created a new strategy for test automation, release and deployment
                             <br/><br/>
-                            <a target="_blank" href="https://www.creditreform.de/crefoplugin.html">
-                                Creditreform Gambio Plugin
-                            </a>
+                            <FlatButton label="Creditreform Gambio Plugin"
+                                        href="https://www.creditreform.de/crefoplugin.html"
+                                        style={{float: "right"}}/>
+                            <br/><br/>
                         </CardText>
                     </Card>
                 </div>
@@ -120,9 +122,10 @@ class ProjectsComponent extends Component {
                             <br/>
                             • Reduced the release time to market of the plugin by automating processes
                             <br/><br/>
-                            <a target="_blank" href="https://store.shopware.com/crefo88948166979f/crefoshopwareplugin.html">
-                                Creditreform Shopware Plugin
-                            </a>
+                            <FlatButton label="Creditreform Shopware Plugin"
+                                        href="https://store.shopware.com/crefo88948166979f/crefoshopwareplugin.html"
+                                        style={{float: "right"}}/>
+                            <br/><br/>
                         </CardText>
                     </Card>
                 </div>
@@ -156,9 +159,10 @@ class ProjectsComponent extends Component {
                             <br/>
                             • Secured the application, communication and the services with OAuth and Keycloak
                             <br/><br/>
-                            <a target="_blank" href="https://www.creditreform.de/leistungen/systeme-beratung/software-loesungen/crefodirect.html">
-                                Creditreform CrefoDirect
-                            </a>
+                            <FlatButton label="Creditreform CrefoDirect"
+                                        href="https://www.creditreform.de/leistungen/systeme-beratung/software-loesungen/crefodirect.html"
+                                        style={{float: "right"}}/>
+                            <br/><br/>
                         </CardText>
                     </Card>
                 </div>
@@ -191,9 +195,10 @@ class ProjectsComponent extends Component {
                             <br/>
                             • Fixed bugs that were reported by our test users
                             <br/><br/>
-                            <a target="_blank" href="https://www.iese.fraunhofer.de/en/competencies/safety_engineering/tools_safety/safetbox.html">
-                                Fraunhofere IESE SafeTbox
-                            </a>
+                            <FlatButton label="Fraunhofere IESE SafeTbox"
+                                        href="https://www.iese.fraunhofer.de/en/competencies/safety_engineering/tools_safety/safetbox.html"
+                                        style={{float: "right"}}/>
+                            <br/><br/>
                         </CardText>
                     </Card>
                 </div>
@@ -213,9 +218,10 @@ class ProjectsComponent extends Component {
                             • Developed an android APP for controlling the embedded systems from the
                             ecosystem (e.g. the tractor on a field)
                             <br/><br/>
-                            <a target="_blank" href="https://www.iese.fraunhofer.de/en/customers_industries/automotive/referenzprojekt_innozentrum_asm_smart-farming.html">
-                                Fraunhofere IESE Smart Framing
-                            </a>
+                            <FlatButton label="Fraunhofere IESE Smart Framing"
+                                        href="https://www.iese.fraunhofer.de/en/customers_industries/automotive/referenzprojekt_innozentrum_asm_smart-farming.html"
+                                        style={{float: "right"}}/>
+                            <br/><br/>
                         </CardText>
                     </Card>
                 </div>
@@ -232,9 +238,10 @@ class ProjectsComponent extends Component {
                             • Developed a monitoring tool of the history of file sharing and permissions
                             granted
                             <br/><br/>
-                            <a target="_blank" href="https://www.iese.fraunhofer.de/en/competencies/security/ind2uce-framework.html">
-                                Fraunhofere IESE Ind2uce Framework
-                            </a>
+                            <FlatButton label="Fraunhofere IESE Ind2uce Framework"
+                                        href="https://www.iese.fraunhofer.de/en/competencies/security/ind2uce-framework.html"
+                                        style={{float: "right"}}/>
+                            <br/><br/>
                         </CardText>
                     </Card>
                 </div>
@@ -251,9 +258,10 @@ class ProjectsComponent extends Component {
                             <br/>
                             • Assured that the architecture of the app is complying with the IOS framework
                             <br/><br/>
-                            <a target="_blank" href="https://www.insiders-technologies.de/home/products/mobile/smart-capture.html">
-                                Smart Capture
-                            </a>
+                            <FlatButton label="Smart Capture"
+                                        href="https://www.insiders-technologies.de/home/products/mobile/smart-capture.html"
+                                        style={{float: "right"}}/>
+                            <br/><br/>
                         </CardText>
                     </Card>
                 </div>
@@ -266,9 +274,10 @@ class ProjectsComponent extends Component {
                         <CardText className="projects-card-text" expandable={true}>
                             • Created an Alexa Skill
                             <br/><br/>
-                            <a target="_blank" href="https://www.amazon.com/zartu-Wazzup/dp/B07894LPSQ">
-                                Wazzup (Alexa Skill)
-                            </a>
+                            <FlatButton label="Wazzup (Alexa Skill)"
+                                        href="https://www.amazon.com/zartu-Wazzup/dp/B07894LPSQ"
+                                        style={{float: "right"}}/>
+                            <br/><br/>
                         </CardText>
                     </Card>
                 </div>

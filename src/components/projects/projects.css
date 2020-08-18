@@ -33,15 +33,3 @@
 .projects-entry a:first-of-type {
     margin-left: 0;
 }
-
-.projects-card-text a {
-    color: rgba(22, 21, 28, 0.73);
-    text-decoration: none;
-    margin-right: 5px;
-    margin-left: 5px;
-    float: right;
-}
-
-.projects-card-text a:first-of-type {
-    margin-left: 0;
-}

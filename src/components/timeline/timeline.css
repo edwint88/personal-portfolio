@@ -1,8 +1,10 @@
 .timeline p.headline {
     margin-top: 0;
+    color: #2A3132;
 }
 
 .timeline-entry {
+    color: #2A3132;
     margin-bottom: 10px;
 }
 

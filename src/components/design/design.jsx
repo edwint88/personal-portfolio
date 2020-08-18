@@ -13,21 +13,18 @@ class DesignComponent extends Component {
             <div className="design">
                 <p className="headline">Technologies and more</p>
                 <p className="text-justify">
-                    From an young age I was lured to play with technology, research what I've not understand
-                    and create new solutions.
+                    From an young age I was lured to play with technology, research what I've not understood
+                    and created new solutions.
                     <br/>
-                    I like to test and play with different tools ( like Photoshop, Audacity, Sktich and so on)
-                    in order to create beautiful content or just to help me to achieve my goals in the projects
-                    by spending less time and money.
+                    I like to test and play with different tools (e.g. Photoshop, Audacity, Sktich) in order to create
+                    beautiful content or improving my efficiency on the projects.
                     <br/>
-                    All this various knowledge helps me to analyze my current projects from different angles and roles.
-                    It helps me to put myself in the shoes of my co-workers and understand their needs.
+                    All this various knowledge helps me to assess my current projects from different angles and roles,
+                    understanding the needs of my co-workers better.
                     <br/>
-                    I am always interested into books about software engineering, process optimization, agile
-                    frameworks,
+                    I am always interested in books about software engineering, process optimization, agile frameworks,
                     software development stories and experiences.
                 </p>
-
                 <p className="text-justify"> Here are some interesting Books to start with: </p>
                 <div className="design-checkbox">
                     <Checkbox

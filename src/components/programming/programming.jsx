@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Paper from 'material-ui/Paper';
 import './programming.css';
+import NavigationChevronRight from "material-ui/svg-icons/navigation/chevron-right";
 
 class ProgrammingComponent extends Component {
 
@@ -8,7 +9,7 @@ class ProgrammingComponent extends Component {
         const style = {
             width: '100%',
             display: 'inline-block',
-            background: '#004952'
+            background: '#000000'
         };
         return (
             <div className="programming">
@@ -23,75 +24,38 @@ class ProgrammingComponent extends Component {
                             </div>
                         </div>
                         <div className="console-content">
-                            <ul>
-                                <li>&lt;<span className="html-1">html</span>&gt;</li>
+                            <span className="console-user">edwin@programming</span><span className="console-delimiter">~> </span><span className="console-result">ls Skills</span>
+                            <ul className="no-top-padding">
                                 <li>
-                                  <ul className="no-top-padding">
-                                    <li>
-                                      &lt;<span className="html-1">head</span>&gt;
-                                      &lt;/<span className="html-1">head</span>&gt;
-                                    </li>
-                                    <li>&lt;<span className="html-1">body</span>&gt;</li>
-                                    <li>
-                                      <ul className="no-top-padding">
-                                        <li>&lt;<span className="html-1">ul</span>&gt;</li>
-                                        <ul className="no-top-padding">
-                                          <li>
-                                            &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">Java, Servlets JSP/JSF, Spring Framework</span>
-                                            &lt;/<span className="html-1">li</span>&gt;</li>
-                                          <li>
-                                            &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">PHP, Symfony2, Doctrine2, Monolog, Smarty</span>
-                                            &lt;/<span className="html-1">li</span>&gt;</li>
-                                          <li>
-                                            &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">Javascript, Angular 2, ExtJs, Node.js, JQuery</span>
-                                            &lt;/<span className="html-1">li</span>&gt;
-                                          </li>
-                                          <li>
-                                            &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">GitFlow, Mercurial</span>
-                                            &lt;/<span className="html-1">li</span>&gt;
-                                          </li>
-                                          <li>
-                                            &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">Maven, Groovy, Composer</span>
-                                            &lt;/<span className="html-1">li</span>&gt;
-                                          </li>
-                                          <li>
-                                            &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">Keycloak, OAuth</span>
-                                            &lt;/<span className="html-1">li</span>&gt;
-                                          </li>
-                                          <li>
-                                            &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">Docker, Vagrant, Hyper-V, VM</span>
-                                            &lt;/<span className="html-1">li</span>&gt;
-                                          </li>
-                                          <li>
-                                            &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">Linux, Windows, OSX</span>
-                                            &lt;/<span className="html-1">li</span>&gt;
-                                          </li>
-                                          <li>
-                                            &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">HTML5, CSS, LESS, SASS</span>
-                                            &lt;/<span className="html-1">li</span>&gt;
-                                          </li>
-                                          <li>
-                                            &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">AWS technologies, Alexa SDK, DialogFlow, Google Actions</span>
-                                            &lt;/<span className="html-1">li</span>&gt;
-                                          </li>
-                                        </ul>
-                                        <li>&lt;/<span className="html-1">ul</span>&gt;</li>
-                                      </ul>
-                                    </li>
-                                    <li>&lt;/<span className="html-1">body</span>&gt;</li>
-                                  </ul>
+                                    <span className="console-output">-rwxrwx--- 1 edwin proficiency 1TB 1 Jul 2013 <span className="console-out-skill"> Java, Servlets JSP/JSF, Spring Framework</span></span>
                                 </li>
-                                <li>&lt;/<span className="html-1">html</span>&gt;</li>
+                                <li>
+                                    <span className="console-output">-rwxrwx--- 1 edwin proficiency 2TB 13 Oct 2007 <span className="console-out-skill"> PHP, Symfony2, Doctrine2, Monolog, Smarty</span></span>
+                                </li>
+                                <li>
+                                    <span className="console-output">-rwxrwx--- 1 edwin proficiency 566GB 12 Sep 2010 <span className="console-out-skill"> Javascript, Angular 2, ExtJs, Node.js, JQuery</span></span>
+                                </li>
+                                <li>
+                                    <span className="console-output">-rwxrwx--- 1 edwin proficiency 650GB 21 Jul 2014 <span className="console-out-skill"> GitFlow, Mercurial</span></span>
+                                </li>
+                                <li>
+                                    <span className="console-output">-rwxrwx--- 1 edwin proficiency 845GB 11 Dec 2011 <span className="console-out-skill"> Maven, Groovy, Composer</span></span>
+                                </li>
+                                <li>
+                                    <span className="console-output">-rwxrwx--- 1 edwin proficiency 520GB 24 Jun 2015 <span className="console-out-skill"> Keycloak, OAuth</span></span>
+                                </li>
+                                <li>
+                                    <span className="console-output">-rwxrwx--- 1 edwin proficiency 500GB 29 Feb 2012 <span className="console-out-skill"> Docker, Vagrant, Hyper-V, VM</span></span>
+                                </li>
+                                <li>
+                                    <span className="console-output">-rwxrwx--- 1 edwin proficiency 1TB 10 Aug 1995<span className="console-out-skill"> Linux, Windows, OSX</span></span>
+                                </li>
+                                <li>
+                                    <span className="console-output">-rwxrwx--- 1 edwin proficiency 1TB 17 Mar 1997 <span className="console-out-skill"> HTML5, CSS, LESS, SASS</span></span>
+                                </li>
+                                <li>
+                                    <span className="console-output">-rwxrwx--- 1 edwin proficiency 282GB 19 Jan 2017 <span className="console-out-skill"> AWS technologies, Alexa SDK, DialogFlow, Google Actions</span></span>
+                                </li>
                             </ul>
                         </div>
                     </Paper>

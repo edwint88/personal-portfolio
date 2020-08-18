@@ -10,7 +10,8 @@
 }
 
 .link-list a {
-  color: rgba(22, 21, 28, 0.73);
+  /*color: rgba(22, 21, 28, 0.73);*/
+  color: #DDBC95;
   text-decoration: none;
   margin-right: 5px;
   margin-left: 5px;

@@ -10,7 +10,7 @@
 }
 
 .console-header {
-  background: #CFD8DC;
+  background: #272822;
   height: 20px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .console-buttons {
-  float: right;
+  float: left;
   margin-right: 5px;
   margin-top: 5px;
 }
@@ -54,6 +54,32 @@ ul {
   margin-bottom: 0;
   padding-left: 10px;
   padding-right: 0px;
+}
+
+.console-user {
+  padding-left: 5px;
+  color: #ffbb55;
+  font-weight: bold;
+}
+
+.console-delimiter {
+  font-weight: bold;
+  color: rgb(174,129,255);
+}
+
+.console-result {
+  font-weight: bold;
+  color: #A5C05B;
+}
+
+.console-output {
+  font-size: small;
+
+}
+
+.console-out-skill {
+  font-weight: bold;
+  color: #4897D8;
 }
 
 .html-1 {

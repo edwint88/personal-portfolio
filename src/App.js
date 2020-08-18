@@ -31,7 +31,7 @@ class App extends Component {
               <IntroductionComponent></IntroductionComponent>
             </div>
           </div>
-          <div className="section">
+          <div className="section mist">
             <div className="section-container">
               <TimelineComponent></TimelineComponent>
             </div>
@@ -46,7 +46,7 @@ class App extends Component {
               <ProgrammingComponent></ProgrammingComponent>
             </div>
           </div>
-          <div className="section">
+          <div className="section mist">
             <div className="section-container">
               <DesignComponent></DesignComponent>
             </div>

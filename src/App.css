@@ -43,7 +43,13 @@ p {
 }
 
 .section.dark {
-  background: #16151C;
+  /*background: #16151C;*/
+  background: #336B87;
+}
+
+.section.mist{
+  /*background: #90AFC5;*/
+  background: rgba(144, 175, 197, 0.42);
 }
 
 .section-container.header-component {
@@ -55,8 +61,9 @@ p {
 }
 
 .section.colored {
-  background: #D8AB94;
-  /* background: #EBEBEB; */
+  /*background: #D8AB94;*/
+   background: #2D4262;
+  color: #ffffff;
 }
 
 p.headline {
